@@ -10,6 +10,7 @@
     fallback: $("#fallback"),
     fbLink: $("#fallback-link"),
     meta: $("#meta"),
+    auto: $("#autoplay"),
   };
 
   const KIND_CN = { mv: "MV", lyric: "Lyric Video", song: "单曲" };
@@ -47,6 +48,7 @@
     plays: 0,
     retry: 0,
     watchdog: 0,
+    autoTimer: 0,
     sawBuffering: false,
     updatedAt: "",
   };
@@ -309,7 +311,17 @@
       el.status.textContent = `播放中${v ? " · " + kindName(v.kind) : ""}　（第 ${S.plays} 次）`;
     } else if (st === 0) {
       S.playing = false;
-      el.status.textContent = "播放结束 · 再点一次";
+      if (autoplay) {
+        el.status.textContent = "播放结束 · 自动抽下一曲…";
+        clearTimeout(S.autoTimer);
+        S.autoTimer = setTimeout(() => {
+          if (!autoplay) return;
+          S.plays++;
+          draw(true);
+        }, 450);
+      } else {
+        el.status.textContent = "播放结束 · 再点一次";
+      }
     } else if (st === 3) {
       mark("state-3"); // 缓冲阶段保持「正在打开…」，不额外跳字
     }
@@ -398,6 +410,7 @@
 
   /* ---------- 操作 ---------- */
   async function draw(silent = false) {
+    clearTimeout(S.autoTimer);
     if (!S.videos.length) return;
     // 第一次优先播预建时已经 cue 好的那支，省掉一次 manifest 请求
     let v = null;
@@ -412,6 +425,26 @@
     if (!silent) S.plays++;
     await play(v);
   }
+
+  /* ---------- 自动连播开关 ---------- */
+  let autoplay = false;
+  try {
+    autoplay = localStorage.getItem("gakumas-autoplay") === "1";
+  } catch {}
+  function paintAutoplay() {
+    el.auto.classList.toggle("on", autoplay);
+    el.auto.setAttribute("aria-pressed", autoplay ? "true" : "false");
+  }
+  function setAutoplay(on) {
+    autoplay = !!on;
+    clearTimeout(S.autoTimer);
+    try {
+      localStorage.setItem("gakumas-autoplay", autoplay ? "1" : "0");
+    } catch {}
+    paintAutoplay();
+  }
+  el.auto.addEventListener("click", () => setAutoplay(!autoplay));
+  paintAutoplay();
 
   el.draw.addEventListener("click", () => {
     mark("click");
