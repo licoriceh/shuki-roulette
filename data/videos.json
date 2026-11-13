@@ -1,0 +1,1834 @@
+{
+  "updatedAt": "2026-11-13T11:37:22.879Z",
+  "source": {
+    "channelId": "UC2dXx-3RXeeP8hA5AGt8vuw",
+    "channel": "初星学園",
+    "channelUrl": "https://www.youtube.com/@hatsuboshi_gakuen",
+    "uploadsPlaylist": "UU2dXx-3RXeeP8hA5AGt8vuw",
+    "fetchedVia": "innertube",
+    "rules": {
+      "minSeconds": 120,
+      "skipPortrait": true,
+      "kinds": [
+        "mv",
+        "lyric",
+        "song"
+      ],
+      "playlists": 13
+    }
+  },
+  "counts": {
+    "uploads": 252,
+    "picked": 111,
+    "unique": 111,
+    "playable": 111,
+    "dropped": 44,
+    "byKind": {
+      "lyric": 6,
+      "mv": 62,
+      "song": 43
+    }
+  },
+  "videos": [
+    {
+      "id": "O8CPTwwbvBA",
+      "kind": "lyric",
+      "song": "Campus mode!!",
+      "romanized": "",
+      "label": "Lyric Video",
+      "title": "初星学園 「Campus mode!!」Lyric Video (HATSUBOSHI GAKUEN - Campus mode!!) Short Size",
+      "lengthSeconds": 163,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "RYMg75Xn6sw",
+      "kind": "lyric",
+      "song": "Let's GO!! ICHI-NO-NI!!",
+      "romanized": "Let's GO!! ICHI-NO-NI!!",
+      "label": "Lyric Video",
+      "title": "初星学園 「Let's GO!! ICHI-NO-NI!!」Lyric Video (HATSUBOSHI GAKUEN - Let's GO!! ICHI-NO-NI!!)",
+      "lengthSeconds": 211,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "9GELzbI-8F4",
+      "kind": "lyric",
+      "song": "SUPREMACY",
+      "romanized": "SUPREMACY",
+      "label": "Lyric Video",
+      "title": "初星学園 「SUPREMACY」Lyric Video (HATSUBOSHI GAKUEN - SUPREMACY)",
+      "lengthSeconds": 231,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "YsYrh_51cC4",
+      "kind": "lyric",
+      "song": "キミとセミブルー",
+      "romanized": "Kimi to Semi Blue",
+      "label": "Lyric Video",
+      "title": "初星学園 「キミとセミブルー」Lyric Video (HATSUBOSHI GAKUEN - Kimi to Semi Blue)",
+      "lengthSeconds": 233,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "XLD6CBji5kY",
+      "kind": "lyric",
+      "song": "ナイワ",
+      "romanized": "NAIWA",
+      "label": "Lyric Video",
+      "title": "初星学園 「ナイワ」Lyric Video (HATSUBOSHI GAKUEN - NAIWA)",
+      "lengthSeconds": 187,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "AsnMofieWkQ",
+      "kind": "lyric",
+      "song": "冠菊",
+      "romanized": "Kamurogiku",
+      "label": "Lyric Video",
+      "title": "初星学園 「冠菊」Lyric Video (HATSUBOSHI GAKUEN - Kamurogiku)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "szxn42peP3M",
+      "kind": "mv",
+      "song": "36℃ U･B･U",
+      "romanized": "36℃ U･B･U",
+      "label": "MV",
+      "title": "初星学園 「36℃ U･B･U」Official Music Video (HATSUBOSHI GAKUEN - 36℃ U･B･U)",
+      "lengthSeconds": 252,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "hSg9Yb28vZA",
+      "kind": "mv",
+      "song": "Agitato",
+      "romanized": "Agitato",
+      "label": "MV",
+      "title": "初星学園 「Agitato」Official Music Video (HATSUBOSHI GAKUEN - Agitato)",
+      "lengthSeconds": 202,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "R9PEnLmv6zI",
+      "kind": "mv",
+      "song": "Atmosphere",
+      "romanized": "Atmosphere",
+      "label": "MV",
+      "title": "初星学園 「Atmosphere」Official Music Video (HATSUBOSHI GAKUEN - Atmosphere)",
+      "lengthSeconds": 269,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "l1T_2zCHTk0",
+      "kind": "mv",
+      "song": "Campus mode!!",
+      "romanized": "Campus mode!!",
+      "label": "MV",
+      "title": "初星学園 「Campus mode!!」Official Music Video (HATSUBOSHI GAKUEN - Campus mode!!)",
+      "lengthSeconds": 255,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "ZhIlyzx9pK8",
+      "kind": "mv",
+      "song": "Choo Choo Choo",
+      "romanized": "Choo Choo Choo",
+      "label": "MV",
+      "title": "初星学園 「Choo Choo Choo」Official Music Video (HATSUBOSHI GAKUEN - Choo Choo Choo)",
+      "lengthSeconds": 192,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "ND5MsmApfTE",
+      "kind": "mv",
+      "song": "clumsy trick",
+      "romanized": "clumsy trick",
+      "label": "MV",
+      "title": "初星学園 「clumsy trick」Official Music Video (HATSUBOSHI GAKUEN - clumsy trick)",
+      "lengthSeconds": 232,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "-6ukHEaeBzU",
+      "kind": "mv",
+      "song": "EGO",
+      "romanized": "EGO",
+      "label": "MV",
+      "title": "初星学園 「EGO」Official Music Video (HATSUBOSHI GAKUEN - EGO)",
+      "lengthSeconds": 242,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "j38KXTf08Rs",
+      "kind": "mv",
+      "song": "ENDLESS DANCE",
+      "romanized": "ENDLESS DANCE",
+      "label": "MV",
+      "title": "初星学園 「ENDLESS DANCE」Official Music Video (HATSUBOSHI GAKUEN - ENDLESS DANCE)",
+      "lengthSeconds": 205,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "T1GK55fsIhw",
+      "kind": "mv",
+      "song": "Fighting My Way",
+      "romanized": "Fighting My Way",
+      "label": "MV",
+      "title": "初星学園 「Fighting My Way」Official Music Video (HATSUBOSHI GAKUEN - Fighting My Way)",
+      "lengthSeconds": 200,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "4AcOcsvGluY",
+      "kind": "mv",
+      "song": "Fluorite",
+      "romanized": "Fluorite",
+      "label": "MV",
+      "title": "初星学園 「Fluorite」Official Music Video (HATSUBOSHI GAKUEN - Fluorite)",
+      "lengthSeconds": 251,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "LNFkXBmr44g",
+      "kind": "mv",
+      "song": "Fragile Heart",
+      "romanized": "Fragile Heart",
+      "label": "MV",
+      "title": "初星学園 「Fragile Heart」Official Music Video (HATSUBOSHI GAKUEN - Fragile Heart)",
+      "lengthSeconds": 245,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "NBJ67a459u8",
+      "kind": "mv",
+      "song": "Howling over the World",
+      "romanized": "Howling over the World",
+      "label": "MV",
+      "title": "初星学園 「Howling over the World」Official Music Video (HATSUBOSHI GAKUEN - Howling over the World)",
+      "lengthSeconds": 242,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "IwWo55RUPCc",
+      "kind": "mv",
+      "song": "Kira Kira",
+      "romanized": "Kira Kira",
+      "label": "MV",
+      "title": "初星学園 「Kira Kira」Official Music Video (HATSUBOSHI GAKUEN - Kira Kira)",
+      "lengthSeconds": 180,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "YzBr_c61TsU",
+      "kind": "mv",
+      "song": "Love & Joy",
+      "romanized": "Love & Joy",
+      "label": "MV",
+      "title": "初星学園 「Love & Joy」Official Music Video (HATSUBOSHI GAKUEN - Love & Joy)",
+      "lengthSeconds": 232,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Sq5Dj0U06vQ",
+      "kind": "mv",
+      "song": "Luna say maybe",
+      "romanized": "Luna say maybe",
+      "label": "MV",
+      "title": "初星学園 「Luna say maybe」Official Music Video (HATSUBOSHI GAKUEN - Luna say maybe)",
+      "lengthSeconds": 266,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Mdyk3h5-TQE",
+      "kind": "mv",
+      "song": "Roar",
+      "romanized": "Roar",
+      "label": "MV",
+      "title": "初星学園 「Roar」Official Music Video (HATSUBOSHI GAKUEN - Roar)",
+      "lengthSeconds": 214,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "BLkCR5h_Sv4",
+      "kind": "mv",
+      "song": "Star-mine",
+      "romanized": "Star-mine",
+      "label": "MV",
+      "title": "初星学園 「Star-mine」Official Music Video (HATSUBOSHI GAKUEN - Star-mine)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "z2WzTPOIWkE",
+      "kind": "mv",
+      "song": "SUGAR FLAVOR",
+      "romanized": "SUGAR FLAVOR",
+      "label": "MV",
+      "title": "初星学園 「SUGAR FLAVOR」Official Music Video (HATSUBOSHI GAKUEN - SUGAR FLAVOR)",
+      "lengthSeconds": 188,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "O0Ylv6GNWMQ",
+      "kind": "mv",
+      "song": "Tame-Lie-One-Step",
+      "romanized": "Tame-Lie-One-Step",
+      "label": "MV",
+      "title": "初星学園 「Tame-Lie-One-Step」Official Music Video (HATSUBOSHI GAKUEN - Tame-Lie-One-Step)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "FL-NhmFGQYw",
+      "kind": "mv",
+      "song": "The Rolling Riceball",
+      "romanized": "The Rolling Riceball",
+      "label": "MV",
+      "title": "初星学園 「The Rolling Riceball」Official Music Video (HATSUBOSHI GAKUEN - The Rolling Riceball)",
+      "lengthSeconds": 192,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "J8fGYM03jsU",
+      "kind": "mv",
+      "song": "Top Secret",
+      "romanized": "Top Secret",
+      "label": "MV",
+      "title": "初星学園 「Top Secret」Official Music Video (HATSUBOSHI GAKUEN - Top Secret)",
+      "lengthSeconds": 170,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "QYgxhkq7Xos",
+      "kind": "mv",
+      "song": "Unhappy Light",
+      "romanized": "Unhappy Light",
+      "label": "MV",
+      "title": "初星学園 「Unhappy Light」Official Music Video (HATSUBOSHI GAKUEN - Unhappy Light)",
+      "lengthSeconds": 251,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "AbxzlgJTM-I",
+      "kind": "mv",
+      "song": "VEIL",
+      "romanized": "VEIL",
+      "label": "MV",
+      "title": "初星学園 「VEIL」Official Music Video (HATSUBOSHI GAKUEN - VEIL)",
+      "lengthSeconds": 213,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "MXWTuX-QC00",
+      "kind": "mv",
+      "song": "White Night! White Wish!",
+      "romanized": "White Night! White Wish!",
+      "label": "MV",
+      "title": "初星学園 「White Night! White Wish!」Official Music Video (HATSUBOSHI GAKUEN - White Night! White Wish!)",
+      "lengthSeconds": 233,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "iiiLtE4w2pE",
+      "kind": "mv",
+      "song": "Wildest Flower",
+      "romanized": "Wildest Flower",
+      "label": "MV",
+      "title": "初星学園 「Wildest Flower」Official Music Video (HATSUBOSHI GAKUEN - Wildest Flower)",
+      "lengthSeconds": 182,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "NkC8ahzYm3k",
+      "kind": "mv",
+      "song": "Wonder Scale",
+      "romanized": "Wonder Scale",
+      "label": "MV",
+      "title": "初星学園 「Wonder Scale」Official Music Video (HATSUBOSHI GAKUEN - Wonder Scale)",
+      "lengthSeconds": 273,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "RVazZ92UGL8",
+      "kind": "mv",
+      "song": "がむしゃらに行こう！",
+      "romanized": "GAMUSHARA NI IKOU!",
+      "label": "MV",
+      "title": "初星学園 「がむしゃらに行こう！」Official Music Video (HATSUBOSHI GAKUEN - GAMUSHARA NI IKOU! )",
+      "lengthSeconds": 218,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "O9oCfxSJXTY",
+      "kind": "mv",
+      "song": "ガラクタロード",
+      "romanized": "GARAKUTA ROAD",
+      "label": "MV",
+      "title": "初星学園 「ガラクタロード」Official Music Video (HATSUBOSHI GAKUEN - GARAKUTA ROAD)",
+      "lengthSeconds": 223,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Z-LWjF5J6Mw",
+      "kind": "mv",
+      "song": "キミとセミブルー",
+      "romanized": "Kimi to Semi Blue",
+      "label": "MV",
+      "title": "初星学園 「キミとセミブルー」Official Music Video (HATSUBOSHI GAKUEN - Kimi to Semi Blue)",
+      "lengthSeconds": 236,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Ik1VyCRlAts",
+      "kind": "mv",
+      "song": "クライアイ",
+      "romanized": "Kuraiai",
+      "label": "MV",
+      "title": "初星学園 「クライアイ」Official Music Video (HATSUBOSHI GAKUEN - Kuraiai)",
+      "lengthSeconds": 212,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "82SGsHkhySg",
+      "kind": "mv",
+      "song": "コンテンポラリのダンス",
+      "romanized": "contemporary dance",
+      "label": "MV",
+      "title": "初星学園 「コンテンポラリのダンス」Official Music Video (HATSUBOSHI GAKUEN - contemporary dance)",
+      "lengthSeconds": 205,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "XLwmEuM0dIw",
+      "kind": "mv",
+      "song": "サンフェーデッド",
+      "romanized": "SUNFADED",
+      "label": "MV",
+      "title": "初星学園 「サンフェーデッド」Official Music Video (HATSUBOSHI GAKUEN - SUNFADED)",
+      "lengthSeconds": 209,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "E74wm1P6CPI",
+      "kind": "mv",
+      "song": "ツキノカメ",
+      "romanized": "Moon Turtle",
+      "label": "MV",
+      "title": "初星学園 「ツキノカメ」Official Music Video (HATSUBOSHI GAKUEN - Moon Turtle)",
+      "lengthSeconds": 284,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "QulHtowM_6o",
+      "kind": "mv",
+      "song": "ときめきエモーション",
+      "romanized": "Tokimeki Emotion",
+      "label": "MV",
+      "title": "初星学園 「ときめきエモーション」Official Music Video (HATSUBOSHI GAKUEN - Tokimeki Emotion)",
+      "lengthSeconds": 209,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "9tMj2ytElGo",
+      "kind": "mv",
+      "song": "ときめきのソルフェージュ",
+      "romanized": "Fantasy Solfege",
+      "label": "MV",
+      "title": "初星学園 「ときめきのソルフェージュ」Official Music Video (HATSUBOSHI GAKUEN - Fantasy Solfege)",
+      "lengthSeconds": 200,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "ebTsJRw7e0c",
+      "kind": "mv",
+      "song": "ねえ、言っちゃうよ。",
+      "romanized": "\"Listen... I have to say it.\"",
+      "label": "MV",
+      "title": "初星学園 「ねえ、言っちゃうよ。」Official Music Video (HATSUBOSHI GAKUEN - \"Listen... I have to say it.\")",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "AON5aAVG3QU",
+      "kind": "mv",
+      "song": "ハッピーミルフィーユ",
+      "romanized": "Happy Millefeuille",
+      "label": "MV",
+      "title": "初星学園 「ハッピーミルフィーユ」Official Music Video (HATSUBOSHI GAKUEN - Happy Millefeuille)",
+      "lengthSeconds": 194,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "yS-fsWrARw8",
+      "kind": "mv",
+      "song": "ふわふわ",
+      "romanized": "Fuwafuwa",
+      "label": "MV",
+      "title": "初星学園 「ふわふわ」Official Music Video (HATSUBOSHI GAKUEN - Fuwafuwa)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "qwfpgEhngVI",
+      "kind": "mv",
+      "song": "みちなるひろがる",
+      "romanized": "Unknown Unbound",
+      "label": "MV",
+      "title": "初星学園 「みちなるひろがる」Official Music Video (HATSUBOSHI GAKUEN - Unknown Unbound)",
+      "lengthSeconds": 205,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "dp-x87l413o",
+      "kind": "mv",
+      "song": "ミラクルナナウ(ﾟ∀ﾟ)！",
+      "romanized": "",
+      "label": "MV",
+      "title": "初星学園 「ミラクルナナウ(ﾟ∀ﾟ)！」Official Music Video (HATSUBOSHI GAKUEN - Mirakulu Na Now(ﾟ∀ﾟ)！)",
+      "lengthSeconds": 231,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "lYafXo-rjU8",
+      "kind": "mv",
+      "song": "め",
+      "romanized": "Me",
+      "label": "MV",
+      "title": "初星学園 「め」Official Music Video (HATSUBOSHI GAKUEN - Me)",
+      "lengthSeconds": 292,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "X1xcOhkgc4c",
+      "kind": "mv",
+      "song": "ヨルニテ",
+      "romanized": "yorunite",
+      "label": "MV",
+      "title": "初星学園 「ヨルニテ」Official Music Video (HATSUBOSHI GAKUEN - yorunite)",
+      "lengthSeconds": 220,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "qmTXRvV7Dk4",
+      "kind": "mv",
+      "song": "わかし・さわがし・スカパンク",
+      "romanized": "Wakashi,Sawagashi,SKA PUNK",
+      "label": "MV",
+      "title": "初星学園 「わかし・さわがし・スカパンク」Official Music Video (HATSUBOSHI GAKUEN - Wakashi,Sawagashi,SKA PUNK)",
+      "lengthSeconds": 202,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "PE_iyDsY5xM",
+      "kind": "mv",
+      "song": "一体いつから",
+      "romanized": "Ittai itsukara",
+      "label": "MV",
+      "title": "初星学園 「一体いつから」Official Music Video (HATSUBOSHI GAKUEN - Ittai itsukara)",
+      "lengthSeconds": 255,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "SPXHpau0jJI",
+      "kind": "mv",
+      "song": "雨上がりのアイリス",
+      "romanized": "Ameagari no Iris",
+      "label": "MV",
+      "title": "初星学園 「雨上がりのアイリス」Official Music Video (HATSUBOSHI GAKUEN - Ameagari no Iris)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "8YNzp2vRS9I",
+      "kind": "mv",
+      "song": "仮装狂騒曲",
+      "romanized": "Fancy dress party",
+      "label": "MV",
+      "title": "初星学園 「仮装狂騒曲」Official Music Video (HATSUBOSHI GAKUEN - Fancy dress party)",
+      "lengthSeconds": 194,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "7i27l7uvTd4",
+      "kind": "mv",
+      "song": "歌声は君いろ",
+      "romanized": "The singing voice is your color",
+      "label": "MV",
+      "title": "初星学園 「歌声は君いろ」Official Music Video (HATSUBOSHI GAKUEN - The singing voice is your color)",
+      "lengthSeconds": 278,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "E8G7BMd2a7g",
+      "kind": "mv",
+      "song": "冠菊",
+      "romanized": "Kamurogiku",
+      "label": "MV",
+      "title": "初星学園 「冠菊」Official Music Video (HATSUBOSHI GAKUEN - Kamurogiku)",
+      "lengthSeconds": 240,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "YbyjjPC6wUQ",
+      "kind": "mv",
+      "song": "金の斧、銀の斧、エメラルドの斧",
+      "romanized": "Mercury and the Honest Dorothy",
+      "label": "MV",
+      "title": "初星学園 「金の斧、銀の斧、エメラルドの斧」Official Music Video (HATSUBOSHI GAKUEN - Mercury and the Honest Dorothy)",
+      "lengthSeconds": 201,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "WxFmsuy4nrM",
+      "kind": "mv",
+      "song": "空と約束",
+      "romanized": "A Tiny Brave Promise",
+      "label": "MV",
+      "title": "初星学園 「空と約束」Official Music Video (HATSUBOSHI GAKUEN - A Tiny Brave Promise )",
+      "lengthSeconds": 291,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "nKO8cTM9jrI",
+      "kind": "mv",
+      "song": "見て",
+      "romanized": "Face Me",
+      "label": "MV",
+      "title": "初星学園 「見て」Official Music Video (HATSUBOSHI GAKUEN - Face Me )",
+      "lengthSeconds": 305,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "VJk2etK8I1w",
+      "kind": "mv",
+      "song": "光景",
+      "romanized": "Koukei",
+      "label": "MV",
+      "title": "初星学園 「光景」Official Music Video (HATSUBOSHI GAKUEN - Koukei)",
+      "lengthSeconds": 272,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "CcA49B2t7j4",
+      "kind": "mv",
+      "song": "桜フォトグラフ",
+      "romanized": "Sakura Photograph",
+      "label": "MV",
+      "title": "初星学園 「桜フォトグラフ」Official Music Video (HATSUBOSHI GAKUEN - Sakura Photograph)",
+      "lengthSeconds": 282,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "WCDLyXJgbIo",
+      "kind": "mv",
+      "song": "自己肯定感爆上げ↑↑しゅきしゅきソング",
+      "romanized": "Self-affirmation Explosion! Love Love Song",
+      "label": "MV",
+      "title": "初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video (Self-affirmation Explosion! Love Love Song)",
+      "lengthSeconds": 232,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "UwA_4TafA_g",
+      "kind": "mv",
+      "song": "小さな野望",
+      "romanized": "Tiny Ambition",
+      "label": "MV",
+      "title": "初星学園 「小さな野望」Official Music Video (HATSUBOSHI GAKUEN - Tiny Ambition)",
+      "lengthSeconds": 325,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "zpDB6GzOXq0",
+      "kind": "mv",
+      "song": "真っ白いページと水彩の主人公",
+      "romanized": "A Blank White Page and a Watercolor Hero",
+      "label": "MV",
+      "title": "初星学園 「真っ白いページと水彩の主人公」Official Music Video (A Blank White Page and a Watercolor Hero)",
+      "lengthSeconds": 226,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "cHaEJgn4HYc",
+      "kind": "mv",
+      "song": "世界一可愛い私",
+      "romanized": "Sekaiichi kawaii watashi",
+      "label": "MV",
+      "title": "初星学園 「世界一可愛い私」Official Music Video (HATSUBOSHI GAKUEN - Sekaiichi kawaii watashi)",
+      "lengthSeconds": 238,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "afh9Sq0Dtq4",
+      "kind": "mv",
+      "song": "赤裸々",
+      "romanized": "SEKIRARA",
+      "label": "MV",
+      "title": "初星学園 「赤裸々」Official Music Video (HATSUBOSHI GAKUEN - SEKIRARA)",
+      "lengthSeconds": 263,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "ZnUy-qYDhAo",
+      "kind": "mv",
+      "song": "雪解けに",
+      "romanized": "Yukidokeni",
+      "label": "MV",
+      "title": "初星学園 「雪解けに」Official Music Video (HATSUBOSHI GAKUEN - Yukidokeni)",
+      "lengthSeconds": 243,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "m4VahiqP9vA",
+      "kind": "mv",
+      "song": "白線",
+      "romanized": "Hakusen",
+      "label": "MV",
+      "title": "初星学園 「白線」Official Music Video (HATSUBOSHI GAKUEN - Hakusen)",
+      "lengthSeconds": 218,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "TZ7LwdN--FI",
+      "kind": "mv",
+      "song": "標",
+      "romanized": "Shirube",
+      "label": "MV",
+      "title": "初星学園「標」 (HATSUBOSHI GAKUEN - Shirube)",
+      "lengthSeconds": 227,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "0ZWUdwVQOJA",
+      "kind": "mv",
+      "song": "理論武装して",
+      "romanized": "RIRONBUSO SITE",
+      "label": "MV",
+      "title": "初星学園 「理論武装して」Official Music Video (HATSUBOSHI GAKUEN - RIRONBUSO SITE)",
+      "lengthSeconds": 215,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "i0FwiuP_rkA",
+      "kind": "song",
+      "song": "Be proud",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Be proud",
+      "lengthSeconds": 196,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "hORfx2kCoDI",
+      "kind": "song",
+      "song": "Boom Boom Pow",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Boom Boom Pow",
+      "lengthSeconds": 201,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "-F2atEfFnF0",
+      "kind": "song",
+      "song": "Cosmetic",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Cosmetic",
+      "lengthSeconds": 257,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Ah6qBoXzqEU",
+      "kind": "song",
+      "song": "Feel Jewel Dream",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Feel Jewel Dream",
+      "lengthSeconds": 203,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "CQ-pxYTwCoI",
+      "kind": "song",
+      "song": "L.U.V",
+      "romanized": "",
+      "label": "单曲",
+      "title": "L.U.V",
+      "lengthSeconds": 251,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "_1hoZi7x1rQ",
+      "kind": "song",
+      "song": "L’Espoir",
+      "romanized": "",
+      "label": "单曲",
+      "title": "L’Espoir",
+      "lengthSeconds": 213,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "jxFxLIl4HFM",
+      "kind": "song",
+      "song": "marble heart",
+      "romanized": "",
+      "label": "单曲",
+      "title": "marble heart",
+      "lengthSeconds": 219,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "6erPd7exdEQ",
+      "kind": "song",
+      "song": "MY STAGE",
+      "romanized": "",
+      "label": "单曲",
+      "title": "MY STAGE",
+      "lengthSeconds": 238,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "2EDobJKhch4",
+      "kind": "song",
+      "song": "nazonazo",
+      "romanized": "",
+      "label": "单曲",
+      "title": "nazonazo",
+      "lengthSeconds": 201,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "y83tiUD9x6I",
+      "kind": "song",
+      "song": "ORDER FAKE",
+      "romanized": "",
+      "label": "单曲",
+      "title": "ORDER FAKE",
+      "lengthSeconds": 187,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "CNPSxUiqcpA",
+      "kind": "song",
+      "song": "Our Chant",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Our Chant",
+      "lengthSeconds": 234,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "MDudVkt8DDk",
+      "kind": "song",
+      "song": "Private Glitter",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Private Glitter",
+      "lengthSeconds": 234,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "gHUqif3Y4aw",
+      "kind": "song",
+      "song": "Ride on Beat",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Ride on Beat",
+      "lengthSeconds": 269,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "NW5qcYRQieo",
+      "kind": "song",
+      "song": "SEARCH RIGHT",
+      "romanized": "",
+      "label": "单曲",
+      "title": "SEARCH RIGHT",
+      "lengthSeconds": 204,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Ie_btWuTW6M",
+      "kind": "song",
+      "song": "Superlative",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Superlative",
+      "lengthSeconds": 305,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "IsJ973R86Lo",
+      "kind": "song",
+      "song": "Sweet Magic",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Sweet Magic",
+      "lengthSeconds": 181,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "bP2wxVmsEDs",
+      "kind": "song",
+      "song": "The Cute!!!",
+      "romanized": "",
+      "label": "单曲",
+      "title": "The Cute!!!",
+      "lengthSeconds": 232,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "X59st5FuS5I",
+      "kind": "song",
+      "song": "Try it now",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Try it now",
+      "lengthSeconds": 226,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "agmdfTGxnDg",
+      "kind": "song",
+      "song": "Wake up!!",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Wake up!!",
+      "lengthSeconds": 262,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "aL7xXuf7g1w",
+      "kind": "song",
+      "song": "Yellow Big Bang！",
+      "romanized": "",
+      "label": "单曲",
+      "title": "Yellow Big Bang！",
+      "lengthSeconds": 248,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "u-YomJhPSN4",
+      "kind": "song",
+      "song": "アイヴイ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "アイヴイ",
+      "lengthSeconds": 195,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "N0j_TMC-Qng",
+      "kind": "song",
+      "song": "いつかのわたし",
+      "romanized": "",
+      "label": "单曲",
+      "title": "いつかのわたし",
+      "lengthSeconds": 329,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "SqTcK3wLRoo",
+      "kind": "song",
+      "song": "カクシタワタシ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "カクシタワタシ",
+      "lengthSeconds": 200,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "T6X2MREymGM",
+      "kind": "song",
+      "song": "かちドキ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "かちドキ",
+      "lengthSeconds": 241,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "HarHa3gfU4A",
+      "kind": "song",
+      "song": "グースーピー",
+      "romanized": "",
+      "label": "单曲",
+      "title": "グースーピー",
+      "lengthSeconds": 182,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "4a6oeXjh8-E",
+      "kind": "song",
+      "song": "コントラスト",
+      "romanized": "",
+      "label": "单曲",
+      "title": "コントラスト",
+      "lengthSeconds": 218,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "y0QwzMhXK6o",
+      "kind": "song",
+      "song": "たいせつなもの",
+      "romanized": "",
+      "label": "单曲",
+      "title": "たいせつなもの",
+      "lengthSeconds": 316,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "a1cspozHmeQ",
+      "kind": "song",
+      "song": "つよつよ最強エクササイズ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "つよつよ最強エクササイズ",
+      "lengthSeconds": 184,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "vG5_bwL7UkI",
+      "kind": "song",
+      "song": "メクルメ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "メクルメ",
+      "lengthSeconds": 197,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "A1KhwOZxzP0",
+      "kind": "song",
+      "song": "ワタシカワイイアヒルノコ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "ワタシカワイイアヒルノコ",
+      "lengthSeconds": 285,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "Mk1-WoEmhXs",
+      "kind": "song",
+      "song": "海奏ララバイ",
+      "romanized": "",
+      "label": "单曲",
+      "title": "海奏ララバイ",
+      "lengthSeconds": 196,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "WTrdlgJqqAw",
+      "kind": "song",
+      "song": "叶えたい、ことばかり",
+      "romanized": "",
+      "label": "单曲",
+      "title": "叶えたい、ことばかり",
+      "lengthSeconds": 247,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "7ANTx8MZp68",
+      "kind": "song",
+      "song": "極光",
+      "romanized": "",
+      "label": "单曲",
+      "title": "極光",
+      "lengthSeconds": 213,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "49we3zUjShQ",
+      "kind": "song",
+      "song": "古今東西ちょちょいのちょい (花海咲季・月村手毬・藤田ことね ver.)",
+      "romanized": "",
+      "label": "单曲",
+      "title": "古今東西ちょちょいのちょい (花海咲季・月村手毬・藤田ことね ver.)",
+      "lengthSeconds": 231,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "0PWSrVT3wi8",
+      "kind": "song",
+      "song": "三分半の創世",
+      "romanized": "",
+      "label": "单曲",
+      "title": "三分半の創世",
+      "lengthSeconds": 210,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "QSBAAW6MGF4",
+      "kind": "song",
+      "song": "修楽旅行 (花海咲季・月村手毬・藤田ことね・雨夜 燕・篠澤 広 ver.)",
+      "romanized": "",
+      "label": "单曲",
+      "title": "修楽旅行 (花海咲季・月村手毬・藤田ことね・雨夜 燕・篠澤 広 ver.)",
+      "lengthSeconds": 227,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "8-mcIcYhP1M",
+      "kind": "song",
+      "song": "修楽旅行 (有村麻央・葛城リーリヤ・花海佑芽・姫崎莉波 ver.)",
+      "romanized": "",
+      "label": "单曲",
+      "title": "修楽旅行 (有村麻央・葛城リーリヤ・花海佑芽・姫崎莉波 ver.)",
+      "lengthSeconds": 213,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "v4ccewrVBNI",
+      "kind": "song",
+      "song": "重なる夜空の痕跡に",
+      "romanized": "",
+      "label": "单曲",
+      "title": "重なる夜空の痕跡に",
+      "lengthSeconds": 238,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "iI8wUFuO5rg",
+      "kind": "song",
+      "song": "春と光",
+      "romanized": "",
+      "label": "单曲",
+      "title": "春と光",
+      "lengthSeconds": 223,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "w-3PTQLwj4w",
+      "kind": "song",
+      "song": "初",
+      "romanized": "",
+      "label": "单曲",
+      "title": "初",
+      "lengthSeconds": 318,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "WWGBUMclMhI",
+      "kind": "song",
+      "song": "神かわいい",
+      "romanized": "",
+      "label": "单曲",
+      "title": "神かわいい",
+      "lengthSeconds": 217,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "XhY07-_kDPM",
+      "kind": "song",
+      "song": "憧れをいっぱい",
+      "romanized": "",
+      "label": "单曲",
+      "title": "憧れをいっぱい",
+      "lengthSeconds": 288,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    },
+    {
+      "id": "scgbx2NKyjY",
+      "kind": "song",
+      "song": "日々、発見的ステップ！",
+      "romanized": "",
+      "label": "单曲",
+      "title": "日々、発見的ステップ！",
+      "lengthSeconds": 196,
+      "width": 0,
+      "height": 0,
+      "embeddable": true
+    }
+  ],
+  "dropped": [
+    {
+      "id": "e_jDdZzxaYU",
+      "title": "初星学園 「クライアイ」Official Music Video (HATSUBOSHI GAKUEN - Kuraiai) #学マス #雨夜燕",
+      "why": "short 25s"
+    },
+    {
+      "id": "ednoxZ4MVcQ",
+      "title": "初星学園 「クライアイ」Official Music Video (HATSUBOSHI GAKUEN - Kuraiai) #学マス #雨夜燕",
+      "why": "short 28s"
+    },
+    {
+      "id": "n9CY5CZbsQU",
+      "title": "初星学園 「歌声は君いろ」Official Music Video (HATSUBOSHI GAKUEN - The singing voice is your color) #学マス #姫崎莉波",
+      "why": "short 29s"
+    },
+    {
+      "id": "-xG_GHShvD8",
+      "title": "初星学園 「歌声は君いろ」Official Music Video (HATSUBOSHI GAKUEN - The singing voice is your color) #学マス #姫崎莉波",
+      "why": "short 32s"
+    },
+    {
+      "id": "pJXjlNaRdxw",
+      "title": "初星学園「金の斧、銀の斧、エメラルドの斧」Official Music Video (HATSUBOSHI GAKUEN - Mercury and the Honest Dorothy) #学マス",
+      "why": "short 12s"
+    },
+    {
+      "id": "vYIvJ8cjwIw",
+      "title": "初星学園「金の斧、銀の斧、エメラルドの斧」Official Music Video (HATSUBOSHI GAKUEN - Mercury and the Honest Dorothy) #学マス",
+      "why": "short 13s"
+    },
+    {
+      "id": "qjuXqI_xpFI",
+      "title": "初星学園 「EGO」Official Music Video (HATSUBOSHI GAKUEN - EGO)",
+      "why": "short 18s"
+    },
+    {
+      "id": "Sa-Bp-EzgQs",
+      "title": "初星学園 「わかし・さわがし・スカパンク」Official Music Video (HATSUBOSHI GAKUEN - Wakashi,Sawagashi,SKA PUNK) #学マス",
+      "why": "short 16s"
+    },
+    {
+      "id": "CkPRTIwPPAs",
+      "title": "初星学園 「わかし・さわがし・スカパンク」Official Music Video (HATSUBOSHI GAKUEN - Wakashi,Sawagashi,SKA PUNK) #学マス",
+      "why": "short 22s"
+    },
+    {
+      "id": "Ro5uggoTd5g",
+      "title": "初星学園 「一体いつから」Official Music Video (HATSUBOSHI GAKUEN - Ittai itsukara) #初星学園 #学マス #anime",
+      "why": "short 28s"
+    },
+    {
+      "id": "jqwVb5yzkyg",
+      "title": "初星学園 「一体いつから」Official Music Video (HATSUBOSHI GAKUEN - Ittai itsukara) #初星学園 #学マス #anime",
+      "why": "short 24s"
+    },
+    {
+      "id": "mSCu-N3oCMw",
+      "title": "初星学園 「見て」Official Music Video (HATSUBOSHI GAKUEN - Face Me ) #初星学園 #学マス #ASOBINOTES",
+      "why": "short 31s"
+    },
+    {
+      "id": "0cNpijWDcXs",
+      "title": "初星学園 「空と約束」Official Music Video (HATSUBOSHI GAKUEN - A Tiny Brave Promise )",
+      "why": "short 59s"
+    },
+    {
+      "id": "7tdvilHhpPs",
+      "title": "初星学園 「空と約束」Official Music Video (HATSUBOSHI GAKUEN - A Tiny Brave Promise )",
+      "why": "short 60s"
+    },
+    {
+      "id": "RZFoLN9dVw4",
+      "title": "初星学園 「ミラクルナナウ(ﾟ∀ﾟ)！」Official Music Video (HATSUBOSHI GAKUEN - Mirakulu Na Now(ﾟ∀ﾟ)！)",
+      "why": "short 15s"
+    },
+    {
+      "id": "_d3xTypU1Wc",
+      "title": "初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video (Self-affirmation Explosion! Love Love Song) #初星学園",
+      "why": "short 11s"
+    },
+    {
+      "id": "wfK3KNKn0lE",
+      "title": "初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video (Self-affirmation Explosion! Love Love Song) #初星学園",
+      "why": "short 16s"
+    },
+    {
+      "id": "qQj5tmiiaw8",
+      "title": "Roar",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "VwBPRFADFx4",
+      "title": "め",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "rP-YFrj2PkI",
+      "title": "ヨルニテ",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "hQCUvsLFpQQ",
+      "title": "Choo Choo Choo",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "QmNvsC8SKcg",
+      "title": "金の斧、銀の斧、エメラルドの斧",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "XtOneQ4AKAM",
+      "title": "一体いつから",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "bD4mp-DYtFk",
+      "title": "Howling over the World (花海佑芽・秦谷美鈴・十王星南 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "tt0yqJbW2Gc",
+      "title": "歌声は君いろ",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "FWHYvQ12HN4",
+      "title": "Kira Kira",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "AzUbM5_b7Lg",
+      "title": "Fragile Heart",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "lEe4rBYLtQU",
+      "title": "ときめきのソルフェージュ",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "Ll2y8jgus_s",
+      "title": "コンテンポラリのダンス",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "4qMAHOVPWdA",
+      "title": "Top Secret",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "tFk5_F7JPh4",
+      "title": "ふわふわ",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "NSuBPElm3FY",
+      "title": "EGO",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "t5-yEjei1MM",
+      "title": "Unhappy Light",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "7ebkkWncYdk",
+      "title": "ENDLESS DANCE (花海佑芽・秦谷美鈴・十王星南 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "prlcJJxDcG4",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！ (有村麻央・紫雲清夏・篠澤広 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "S-kt_xuiaLI",
+      "title": "Howling over the World (有村麻央・紫雲清夏・篠澤広 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "F5RuYP3K3F4",
+      "title": "がむしゃらに行こう！ (有村麻央・紫雲清夏・篠澤広 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "QHDLB38GTPk",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！ (葛城リーリヤ・倉本千奈・姫崎莉波 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "6c8fuKq77dA",
+      "title": "Howling over the World (葛城リーリヤ・倉本千奈・姫崎莉波 ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "2ZAncawGd1o",
+      "title": "がむしゃらに行こう！（葛城リーリヤ・倉本千奈・姫崎莉波 ver.）",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "ynFvouq-jBk",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！（花海咲季・月村手毬・藤田ことね ver.）",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "3oxdK6qyLzA",
+      "title": "Howling over the World（花海咲季・月村手毬・藤田ことね ver.）",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "JstSAuCDlTY",
+      "title": "がむしゃらに行こう！ (花海咲季・月村手毬・藤田ことね ver.)",
+      "why": "duplicate of MV"
+    },
+    {
+      "id": "ykc7Rx7cggE",
+      "title": "Campus mode!!",
+      "why": "duplicate of MV"
+    }
+  ],
+  "unmatched": [
+    {
+      "id": "8p4CD0GE7ro",
+      "title": "「ねえ、言っちゃうよ。」 月村手毬 Solo ver. (\"Listen... I have to say it.\" - Temari Tsukimura Solo ver.) #学マス"
+    },
+    {
+      "id": "e_jDdZzxaYU",
+      "title": "初星学園 「クライアイ」Official Music Video (HATSUBOSHI GAKUEN - Kuraiai) #学マス #雨夜燕"
+    },
+    {
+      "id": "ednoxZ4MVcQ",
+      "title": "初星学園 「クライアイ」Official Music Video (HATSUBOSHI GAKUEN - Kuraiai) #学マス #雨夜燕"
+    },
+    {
+      "id": "n9CY5CZbsQU",
+      "title": "初星学園 「歌声は君いろ」Official Music Video (HATSUBOSHI GAKUEN - The singing voice is your color) #学マス #姫崎莉波"
+    },
+    {
+      "id": "-xG_GHShvD8",
+      "title": "初星学園 「歌声は君いろ」Official Music Video (HATSUBOSHI GAKUEN - The singing voice is your color) #学マス #姫崎莉波"
+    },
+    {
+      "id": "OgifeukdXnU",
+      "title": "初星学園 「ミラクルナナウ(ﾟ∀ﾟ)！ (佐藤貴文 Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "e-6E34o9QmU",
+      "title": "初星学園 「仮装狂騒曲 (原口沙輔 Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "yYxEvHKhQCA",
+      "title": "初星学園 「ツキノカメ (Shinpei Nasuno Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "FFQJpcD9wg4",
+      "title": "初星学園 「Cosmetic (REDALiCE Remix)」Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "BdLHmP0QTo4",
+      "title": "初星学園 「The Rolling Riceball (LindaAI-CUE Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "XUGo3ifkaiU",
+      "title": "初星学園 「L.U.V (石濱 翔 Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "byvZ-mQcKcU",
+      "title": "初星学園 「メクルメ (PAS TASTA Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "AUqf24HCNk0",
+      "title": "初星学園 「Kira Kira (r-906 Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "xOrm8rPXdOk",
+      "title": "初星学園 「憧れをいっぱい (Tomggg Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "2V8Jicraa_M",
+      "title": "初星学園 「白線 (やしきん Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "XV3piOXbFPs",
+      "title": "初星学園 「Feel Jewel Dream (James Landino Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "VRuCluZFeBU",
+      "title": "初星学園 「Yellow Big Bang！ (cosMo＠暴走P Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "-P0WvzRp-ZI",
+      "title": "初星学園 「Luna say maybe (gaburyu Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "UGFUHmpMZ7I",
+      "title": "初星学園 「EGO (Nor Remix)」 Official Visualiser (HATSUBOSHI GAKUEN)"
+    },
+    {
+      "id": "pJXjlNaRdxw",
+      "title": "初星学園「金の斧、銀の斧、エメラルドの斧」Official Music Video (HATSUBOSHI GAKUEN - Mercury and the Honest Dorothy) #学マス"
+    },
+    {
+      "id": "vYIvJ8cjwIw",
+      "title": "初星学園「金の斧、銀の斧、エメラルドの斧」Official Music Video (HATSUBOSHI GAKUEN - Mercury and the Honest Dorothy) #学マス"
+    },
+    {
+      "id": "qjuXqI_xpFI",
+      "title": "初星学園 「EGO」Official Music Video (HATSUBOSHI GAKUEN - EGO)"
+    },
+    {
+      "id": "Y-ta-NZkbq0",
+      "title": "初星学園 のライブ配信"
+    },
+    {
+      "id": "Sa-Bp-EzgQs",
+      "title": "初星学園 「わかし・さわがし・スカパンク」Official Music Video (HATSUBOSHI GAKUEN - Wakashi,Sawagashi,SKA PUNK) #学マス"
+    },
+    {
+      "id": "CkPRTIwPPAs",
+      "title": "初星学園 「わかし・さわがし・スカパンク」Official Music Video (HATSUBOSHI GAKUEN - Wakashi,Sawagashi,SKA PUNK) #学マス"
+    },
+    {
+      "id": "Ro5uggoTd5g",
+      "title": "初星学園 「一体いつから」Official Music Video (HATSUBOSHI GAKUEN - Ittai itsukara) #初星学園 #学マス #anime"
+    },
+    {
+      "id": "jqwVb5yzkyg",
+      "title": "初星学園 「一体いつから」Official Music Video (HATSUBOSHI GAKUEN - Ittai itsukara) #初星学園 #学マス #anime"
+    },
+    {
+      "id": "mSCu-N3oCMw",
+      "title": "初星学園 「見て」Official Music Video (HATSUBOSHI GAKUEN - Face Me ) #初星学園 #学マス #ASOBINOTES"
+    },
+    {
+      "id": "0cNpijWDcXs",
+      "title": "初星学園 「空と約束」Official Music Video (HATSUBOSHI GAKUEN - A Tiny Brave Promise )"
+    },
+    {
+      "id": "7tdvilHhpPs",
+      "title": "初星学園 「空と約束」Official Music Video (HATSUBOSHI GAKUEN - A Tiny Brave Promise )"
+    },
+    {
+      "id": "RZFoLN9dVw4",
+      "title": "初星学園 「ミラクルナナウ(ﾟ∀ﾟ)！」Official Music Video (HATSUBOSHI GAKUEN - Mirakulu Na Now(ﾟ∀ﾟ)！)"
+    },
+    {
+      "id": "_d3xTypU1Wc",
+      "title": "初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video (Self-affirmation Explosion! Love Love Song) #初星学園"
+    },
+    {
+      "id": "wfK3KNKn0lE",
+      "title": "初星学園「自己肯定感爆上げ↑↑しゅきしゅきソング」Official Music Video (Self-affirmation Explosion! Love Love Song) #初星学園"
+    },
+    {
+      "id": "xmtD_eTGxtE",
+      "title": "初星学園 Music Video Teaser"
+    },
+    {
+      "id": "qQj5tmiiaw8",
+      "title": "Roar"
+    },
+    {
+      "id": "VwBPRFADFx4",
+      "title": "め"
+    },
+    {
+      "id": "rP-YFrj2PkI",
+      "title": "ヨルニテ"
+    },
+    {
+      "id": "hQCUvsLFpQQ",
+      "title": "Choo Choo Choo"
+    },
+    {
+      "id": "QmNvsC8SKcg",
+      "title": "金の斧、銀の斧、エメラルドの斧"
+    },
+    {
+      "id": "XtOneQ4AKAM",
+      "title": "一体いつから"
+    },
+    {
+      "id": "bD4mp-DYtFk",
+      "title": "Howling over the World (花海佑芽・秦谷美鈴・十王星南 ver.)"
+    },
+    {
+      "id": "tt0yqJbW2Gc",
+      "title": "歌声は君いろ"
+    },
+    {
+      "id": "FWHYvQ12HN4",
+      "title": "Kira Kira"
+    },
+    {
+      "id": "AzUbM5_b7Lg",
+      "title": "Fragile Heart"
+    },
+    {
+      "id": "lEe4rBYLtQU",
+      "title": "ときめきのソルフェージュ"
+    },
+    {
+      "id": "Ll2y8jgus_s",
+      "title": "コンテンポラリのダンス"
+    },
+    {
+      "id": "4qMAHOVPWdA",
+      "title": "Top Secret"
+    },
+    {
+      "id": "tFk5_F7JPh4",
+      "title": "ふわふわ"
+    },
+    {
+      "id": "NSuBPElm3FY",
+      "title": "EGO"
+    },
+    {
+      "id": "t5-yEjei1MM",
+      "title": "Unhappy Light"
+    },
+    {
+      "id": "7ebkkWncYdk",
+      "title": "ENDLESS DANCE (花海佑芽・秦谷美鈴・十王星南 ver.)"
+    },
+    {
+      "id": "prlcJJxDcG4",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！ (有村麻央・紫雲清夏・篠澤広 ver.)"
+    },
+    {
+      "id": "S-kt_xuiaLI",
+      "title": "Howling over the World (有村麻央・紫雲清夏・篠澤広 ver.)"
+    },
+    {
+      "id": "F5RuYP3K3F4",
+      "title": "がむしゃらに行こう！ (有村麻央・紫雲清夏・篠澤広 ver.)"
+    },
+    {
+      "id": "QHDLB38GTPk",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！ (葛城リーリヤ・倉本千奈・姫崎莉波 ver.)"
+    },
+    {
+      "id": "6c8fuKq77dA",
+      "title": "Howling over the World (葛城リーリヤ・倉本千奈・姫崎莉波 ver.)"
+    },
+    {
+      "id": "2ZAncawGd1o",
+      "title": "がむしゃらに行こう！（葛城リーリヤ・倉本千奈・姫崎莉波 ver.）"
+    },
+    {
+      "id": "ynFvouq-jBk",
+      "title": "ミラクルナナウ (ﾟ∀ﾟ) ！（花海咲季・月村手毬・藤田ことね ver.）"
+    },
+    {
+      "id": "3oxdK6qyLzA",
+      "title": "Howling over the World（花海咲季・月村手毬・藤田ことね ver.）"
+    },
+    {
+      "id": "JstSAuCDlTY",
+      "title": "がむしゃらに行こう！ (花海咲季・月村手毬・藤田ことね ver.)"
+    },
+    {
+      "id": "ykc7Rx7cggE",
+      "title": "Campus mode!!"
+    }
+  ]
+}

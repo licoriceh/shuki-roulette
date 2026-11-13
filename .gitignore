@@ -1,0 +1,10 @@
+# 本地截图与调试产物，不进仓库
+preview*.png
+
+# refresh.mjs 的临时探针文件
+data/_*.json
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+.DS_Store

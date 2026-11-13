@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学马仕MV转盘</title>
+<meta name="description" content="从初星学园的官方 MV 和歌词版里随机抽一支播放">
+<link rel="preconnect" href="https://www.youtube.com">
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="dns-prefetch" href="https://www.youtube.com">
+<link rel="dns-prefetch" href="https://i.ytimg.com">
+<link rel="stylesheet" href="style.css">
+<script>
+  // 提前定义回调，让 iframe_api 与 app.js 并行下载；加载早于 app.js 时用 __ytReady 兜住
+  window.__ytReady = false;
+  window.onYouTubeIframeAPIReady = function () {
+    window.__ytReady = true;
+    window.dispatchEvent(new Event("ytapi"));
+  };
+</script>
+<script async src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+  <div class="bg-layer" data-i="0"></div>
+  <div class="bg-layer" data-i="1"></div>
+</div>
+<main class="wrap">
+  <header class="head">
+    <h1>学马仕MV转盘</h1>
+    <p class="pool" id="pool">加载中…</p>
+  </header>
+
+  <button id="draw" class="draw" type="button" autofocus>
+    <span class="draw-label">随机播放</span>
+    <span class="draw-hint">空格 / 回车</span>
+  </button>
+
+  <p class="status" id="status">点按钮随机抽一支</p>
+
+  <section class="stage">
+    <div class="player-wrap">
+      <div class="player" id="player"></div>
+      <div class="poster" id="poster">
+        <span class="poster-text" id="poster-text">点按钮开始</span>
+      </div>
+    </div>
+    <div class="fallback" id="fallback" hidden>
+      <p class="fallback-title">播放器加载失败</p>
+      <p class="fallback-body">这条网络可能连不上 YouTube。<br>可以用下面的直链打开。</p>
+      <a class="fallback-link" id="fallback-link" href="https://www.youtube.com/" target="_blank" rel="noopener">在 YouTube 打开</a>
+    </div>
+  </section>
+
+  <footer class="meta" id="meta"></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>embed test</title>
+<style>body{background:#111;color:#eee;font-family:system-ui;margin:0;padding:24px}#player{aspect-ratio:16/9;max-width:854px;background:#000}button{font-size:18px;padding:12px 28px;margin-top:16px}</style>
+</head>
+<body>
+<div id="player"></div>
+<button id="btn">ランダム再生</button>
+<script>
+  window.states = [];
+  window.errors = [];
+  const tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
+  window.onYouTubeIframeAPIReady = () => { window.apiReady = true; };
+  let player = null;
+  document.getElementById('btn').onclick = () => {
+    const id = 'Mdyk3h5-TQE';
+    if (player) { player.loadVideoById(id); return; }
+    player = new YT.Player('player', {
+      width: '854', height: '480', videoId: id,
+      playerVars: { autoplay: 1, rel: 0, playsinline: 1 },
+      events: {
+        onReady: (e) => { window.playerReady = true; e.target.playVideo(); },
+        onStateChange: (e) => { window.states.push(e.data); },
+        onError: (e) => { window.errors.push(e.data); }
+      }
+    });
+    window.player = player;
+  };
+</script>
+</body>
+</html>

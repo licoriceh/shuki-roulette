@@ -1,0 +1,58 @@
+name: build-and-deploy
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"      # UTC。JST 12:00 / 21:00 投稿 → 最迟 6h 内入库
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # runner 出口在境外，直连 YouTube，不需要任何代理
+      # 失败时保留仓库里的 data/videos.json 快照继续部署，站点不会空
+      - name: Refresh MV list
+        continue-on-error: true
+        run: node tools/refresh.mjs
+
+      - name: Assemble dist
+        run: |
+          set -e
+          mkdir -p dist
+          cp index.html app.js style.css dist/
+          cp -r data dist/
+          touch dist/.nojekyll
+          node -e "const d=require('./dist/data/videos.json');console.log('videos:',d.videos.length,'updatedAt:',d.updatedAt)"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

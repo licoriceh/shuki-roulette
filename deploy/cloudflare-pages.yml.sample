@@ -1,0 +1,40 @@
+# Cloudflare Pages 版部署。想用 *.pages.dev 托管时，把本文件改名成
+# .github/workflows/deploy.yml（同时删掉原来的 GitHub Pages 版），再在仓库 Settings → Secrets
+# 里加 CF_API_TOKEN（权限模板：Pages:Edit）和 CF_ACCOUNT_ID。
+name: deploy-cloudflare
+
+on:
+  schedule:
+    - cron: "42 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh MV list
+        continue-on-error: true
+        run: node tools/refresh.mjs
+
+      - name: Assemble dist
+        run: |
+          set -e
+          mkdir -p dist
+          cp index.html app.js style.css dist/
+          cp -r data dist/
+          node -e "const d=require('./dist/data/videos.json');console.log('videos:',d.videos.length)"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=gakumas-mv --branch=main
