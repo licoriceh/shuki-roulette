@@ -1,81 +1,78 @@
-# 学マス MV ランダム
+# 学马仕MV转盘
 
-初星学園（学園アイドルマスター）公式チャンネルの動画をランダムに 1 本再生する静的サイト。
+从「初星学園」官方 YouTube 频道随机抽一支视频播放的静态站点。点一下按钮转动盘，出一支 MV、Lyric Video 或单曲，按钮始终留在原地。
 
-- ボタンは常時表示。押すたびに 1 本抽選して iframe 内で再生
-- 抽選はシャッフルバッグ方式（全曲一巡してから再シャッフル・直前の 1 本は除外）
-- 曲池是 MV 62 支 + Lyric Video 6 支 + 单曲 43 支 = 111 支（Remix Visualiser 整类不收；时长 < 120s 或画面竖屏的宣传短片在抓取阶段剔除；同曲名已有 MV 的静态图单曲剔除，整首只有阵容版的则全部保留）
-- YouTube 側で埋め込み不可 / 削除済みになった動画は `onError` で自動的に除外して引き直す
-- 8 秒以内に再生が始まらない場合は「YouTube で開く」に切り替える
+**在线：<https://licoriceh.github.io/shuki-roulette/>**
 
-## ローカルで動かす
+![预览](docs/preview.jpg)
 
-```
-serve.cmd            → http://127.0.0.1:8801/ を開く
-```
+## 玩法
 
-`file://` では動かない（`fetch(data/videos.json)` が CORS で落ちる）。必ず http 経由で開く。
+- **随机播放**：按钮常驻，播放中、播完、出错都在。快捷键 `空格` / `回车`
+- **不连续重复**：整个曲池洗牌成环，111 支轮完一轮才重洗，同时排除上一支
+- **封面即背景**：整页背景用当前曲的 YouTube 缩略图模糊化，播放器内铺同一张原图
+- **不剧透**：从点下去到出画的 1～2 秒里，页面只显示「正在打开…」，曲名、模糊背景、新封面统一等 `state=1` 才上
+- **自动兜底**：视频被禁止嵌入或删除时，`onError` 把它标记为 dead 并立即重抽；14 秒连不上 YouTube 就收起播放器，换成「在 YouTube 打开」直链
 
-## データを更新する
+## 曲池
 
 ```
-refresh.cmd
+111 首 = MV 62 + Lyric Video 6 + 单曲 43
 ```
 
-`tools/refresh.mjs` が走って `data/videos.json` を書き換える。所要 25 秒前後。
+「单曲」指的是官方音乐播放列表里那些只有一张静态封面 + 音频的视频。筛选规则全部写在 `tools/refresh.mjs`：
 
-- チャンネルの全アップロードを innertube（`youtubei/v1/browse`）でページング取得
-- 从标题判定 MV / Lyric Video，Shorts・Solo ver.・Teaser・Visualiser 一律跳过
-- 另抓官方 13 个播放列表（Music + 12 名角色的 solo 曲），列表里出现、标题是纯曲名的视频归类为「单曲」（一张图的静态封面 + 音频）
-- 逐条查 player 端点拿 `lengthSeconds` 与视频宽高，`< 120s` 或竖屏的剔除（结果写在 `videos.json.dropped` 里备查）
-- 同じ曲 × 同じ種別は最新 1 本に集約
-- oEmbed で埋め込み可否を検証し、不可のものは出力しない
-- innertube が失敗したら RSS（最新 15 本）に退避し、既存の `videos.json` とマージする
+| 规则 | 说明 |
+|---|---|
+| Remix Visualiser 整类不收 | 12 首 Remix 的静态可视化视频 |
+| 剔除短时长与竖屏 | `< 120s` 或「高 > 宽」的宣传短片、竖屏预览 |
+| 短视频不当结果 | 标题带 `#shorts`、`Solo ver.`、`Teaser` 的一律跳过 |
+| 同曲留完整版 | 同一首曲多次上传时保留时长最长的（如「空と約束」的 291s 正片压过 59s / 60s 剪辑版） |
+| 单曲只留原版 | 按去掉括号内容后的曲名去重：有原版只留原版；整首只有阵容版的则全部保留（当前例外是「修楽旅行」两个阵容版） |
+| 只收可嵌入的 | 逐条打 oEmbed，401 / 403 的不进池子 |
 
-本機の通信は Clash 系プロキシ（`127.0.0.1:7890`）経由。`refresh.cmd` はその前提で proxy を export している。別ポートなら `refresh.cmd` の 3 行を書き換える。
+## 数据从哪来
 
-## 背景封面
+- **频道全量上传**：`youtubei/v1/browse` 打 `VL+UU2dXx-3RXeeP8hA5AGt8vuw`，按 `continuation` 翻页，拿到 252 条（含 Shorts）。2025 年后返回的是 `lockupViewModel` 结构，旧的 `playlistVideoRenderer` 已经取不到数据
+- **13 个官方播放列表**：Music 全曲目清单 + 12 名角色的 solo 曲列表，用来认出「只有一张图的单曲」
+- **元数据**：`youtubei/v1/player` 取 `lengthSeconds` 与 `streamingData` 的视频宽高，判时长与画幅
+- **可嵌入性**：`youtube.com/oembed`，200 才算可播
 
-图源用每支视频在 YouTube 上的缩略图：`https://i.ytimg.com/vi/<videoId>/maxresdefault.jpg`（1280×720）。111 首里 105 首有 maxres，剩下 6 首只有 `sddefault`（640×480），前端按 `maxresdefault → sddefault → hqdefault` 依次探测，取第一个能加载的。
+跑在 GitHub Actions 上，`cron: 17 */6 * * *`，一次约 3 分钟。runner 出口在境外，直连 YouTube，不需要任何代理。抓取失败时脚本自动退到 RSS（最近 15 条）并与仓库快照合并；两级都挂了也只会标记失败，部署继续用仓库里的 `data/videos.json`，站点不会空。
 
-- 打开页面时随机铺一张，模糊 24px + 压暗后作为整页背景；播放器区域内同时铺原图，避免未播放时的大黑块
-- 抽到新歌时背景跟着换成那首的图，两层交叉淡入 1.1 秒
-- 不用 Apple Music / iTunes 的方形封面：那些能拉到 3000×3000，但曲名是罗马字英译（`Garakuta Road - Single`），跟日文标题对不上，且只覆盖已发单曲的部分曲目
+## 本地跑
+
+```
+serve.cmd     # http://127.0.0.1:8801/
+refresh.cmd   # 抓一次数据，约 25 秒
+```
+
+`refresh.cmd` 里预设了 `HTTP_PROXY=http://127.0.0.1:7890`，换端口改那三行。`file://` 直接打开不行，`fetch(data/videos.json)` 会被 CORS 拦。
+
+## 结构
+
+| 文件 | 作用 |
+|---|---|
+| `index.html` / `style.css` / `app.js` | 站点本体。原生 JS，无框架无构建 |
+| `data/videos.json` | 曲池（生成物，同时兼作 CI 失败时的兜底快照） |
+| `tools/refresh.mjs` | 抓取 + 归类 + 过滤 + 校验，唯一的数据入口 |
+| `tools/test-embed.html` | 验证 YouTube 嵌入能不能播的最小页面 |
+| `refresh.cmd` / `serve.cmd` | Windows 双击入口 |
+| `.github/workflows/deploy.yml` | GitHub Pages 构建与部署 |
+| `deploy/cloudflare-pages.yml.sample` | 换 Cloudflare Pages 时用的 workflow |
+| `DEPLOY.md` | 上线方案与托管对比 |
+| `PLAN.md` | 设计过程与实测数据存档 |
 
 ## 首播延迟
 
-点击到出画面：**约 8s → 约 2.5s**（headless + Clash 代理环境实测）。三条改动：
+点击到出画面：**约 8s → 约 2.5s**。三段改动：
 
-1. **预建播放器**：`loadData()` 之后用 `requestIdleCallback` 把 `YT.Player` 建好并 `cue` 一支（不播放），点击时只走 `loadVideoById` / `playVideo`。首次抽卡直接复用预建的那支，连 manifest 都不用重新拉。
-2. **提前加载 iframe_api**：`<script async src="https://www.youtube.com/iframe_api">` 放在 `<head>`，与 `app.js` 并行下载，`onYouTubeIframeAPIReady` 由一段 inline script 提前接管（`window.__ytReady` 兜住加载早于 app.js 的情况）。另外给 `www.youtube.com`、`i.ytimg.com` 加了 `preconnect` / `dns-prefetch`。
-3. **封面过渡**：封面层 `.poster` 独立于 `#player` 叠在上面。点击后它切成纯深色底（不带任何曲目图），只由状态栏显示「正在打开…」，遮住加载黑屏但不提前泄露抽到了什么；`onStateChange` 收到 `1` 时封面层淡出，曲名、模糊背景、新封面三样同时更新。
+1. 页面空闲时预建 `YT.Player` 并 cue 一支，点击时只走 `loadVideoById` / `playVideo`
+2. `iframe_api` 用 `<script async>` 提前到 `<head>` 并行加载，比原来早约 1.8 秒
+3. 背景图改用 640×480 的 `sddefault` 并在点击时预取进缓存，出画那一刻零等待
 
-分段耗时用 `?debug=1` 看右下角面板：
+带 `?debug=1` 打开页面，右下角会显示各阶段的时间戳。剩下的耗时全在首个视频分片下载，由网络决定。
 
-```
-   4ms  +    4  data-ready
- 422ms  +  418  yt-api-ready
- 422ms  +    0  mount-player
-2140ms  + 1717  player-ready
-8024ms  + 5884  click
-8024ms  +    0  already-cued
-8061ms  +   37  state-3
-10549ms  + 2488  state-1      ← 这一段是首片下载，网络决定
-```
+## 声明
 
-剩下的 2.5s 全是 `state=3 → 1` 的首个视频分片下载。再想压只能降码率（`suggestedQuality: 'large'`），代价是画质，看带宽再决定。
-
-## 公開する
-
-[`DEPLOY.md`](DEPLOY.md) 参照。GitHub Actions が 6 時間ごとにデータを更新し、Cloudflare Pages（または GitHub Pages）に配置する。CI の runner は境外に出るので proxy 設定は不要。
-
-## 構成
-
-| ファイル | 役割 |
-|---|---|
-| `index.html` / `style.css` / `app.js` | サイト本体。フレームワーク・ビルド無し |
-| `data/videos.json` | 抽選プール（生成物。CI 失敗時のフォールバックも兼ねる） |
-| `tools/refresh.mjs` | 取得 + 分類 + 埋め込み検証 |
-| `tools/test-embed.html` | 埋め込み再生の動作確認用の最小ページ |
-| `.github/workflows/deploy.yml` | GitHub Pages へのビルド & デプロイ |
-| `deploy/cloudflare-pages.yml.sample` | Cloudflare Pages 版のワークフロー |
+非官方粉丝作品。所有视频与图像版权归 Bandai Namco Entertainment / 初星学園 所有，本站只做 YouTube 官方播放器的嵌入，不托管任何音视频文件。
